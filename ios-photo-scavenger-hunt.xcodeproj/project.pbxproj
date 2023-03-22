@@ -13,6 +13,10 @@
 		BFA1A62729CA47C900CDA435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA1A62529CA47C900CDA435 /* Main.storyboard */; };
 		BFA1A62929CA47CA00CDA435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA1A62829CA47CA00CDA435 /* Assets.xcassets */; };
 		BFA1A62C29CA47CA00CDA435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA1A62A29CA47CA00CDA435 /* LaunchScreen.storyboard */; };
+		BFA1A63429CA5A0100CDA435 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1A63329CA5A0100CDA435 /* Task.swift */; };
+		BFA1A63629CA768500CDA435 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1A63529CA768500CDA435 /* TaskCell.swift */; };
+		BFA1A63829CAAEBC00CDA435 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1A63729CAAEBC00CDA435 /* DetailsViewController.swift */; };
+		BFA1A63A29CB7F4700CDA435 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1A63929CB7F4700CDA435 /* CustomAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BFA1A62829CA47CA00CDA435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA1A62B29CA47CA00CDA435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA1A62D29CA47CA00CDA435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA1A63329CA5A0100CDA435 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BFA1A63529CA768500CDA435 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		BFA1A63729CAAEBC00CDA435 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BFA1A63929CB7F4700CDA435 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				BFA1A61F29CA47C900CDA435 /* AppDelegate.swift */,
 				BFA1A62129CA47C900CDA435 /* SceneDelegate.swift */,
 				BFA1A62329CA47C900CDA435 /* ViewController.swift */,
+				BFA1A63729CAAEBC00CDA435 /* DetailsViewController.swift */,
+				BFA1A63929CB7F4700CDA435 /* CustomAnnotationView.swift */,
+				BFA1A63329CA5A0100CDA435 /* Task.swift */,
 				BFA1A62529CA47C900CDA435 /* Main.storyboard */,
+				BFA1A63529CA768500CDA435 /* TaskCell.swift */,
 				BFA1A62829CA47CA00CDA435 /* Assets.xcassets */,
 				BFA1A62A29CA47CA00CDA435 /* LaunchScreen.storyboard */,
 				BFA1A62D29CA47CA00CDA435 /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA1A63429CA5A0100CDA435 /* Task.swift in Sources */,
 				BFA1A62429CA47C900CDA435 /* ViewController.swift in Sources */,
 				BFA1A62029CA47C900CDA435 /* AppDelegate.swift in Sources */,
 				BFA1A62229CA47C900CDA435 /* SceneDelegate.swift in Sources */,
+				BFA1A63629CA768500CDA435 /* TaskCell.swift in Sources */,
+				BFA1A63A29CB7F4700CDA435 /* CustomAnnotationView.swift in Sources */,
+				BFA1A63829CAAEBC00CDA435 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
